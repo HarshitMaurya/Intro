@@ -2,60 +2,60 @@ html, body {
 	height: 100%;
 	margin: 0px;
 	overflow-x: hidden;
-    text-shadow: 3px 2px 5px #444;
+	text-shadow: 3px 2px 5px #444;
 }
 
 header {
-    z-index: 100;
+	z-index: 100;
 	width:100%;
 	height: 60px;
-    max-height: 60px;
+	max-height: 60px;
 	display: flex;
 	flex-direction: row-reverse;
 	position: fixed;
 	background-color: rgba(139,0,0,0.5);
-    box-shadow: 0px 5px 10px rgba(150,0,0,0.7);
-    text-decoration: none;
+	box-shadow: 0px 5px 10px rgba(150,0,0,0.7);
+	text-decoration: none;
 }
 
 header a{
-    text-decoration: none;
-    text-decoration: none;
-    padding-top: 10px;
-    height:40px;
-    width: 20%;
-    font-size: 1.0em;
-    background-color: chocolate;
-    text-align: center;
-    margin: 5px 2.5px;
-    border: 2px solid #ccc;
-    color: aliceblue;
-    transition: background-color 1s;
+	text-decoration: none;
+	text-decoration: none;
+	padding-top: 10px;
+	height:40px;
+	width: 20%;
+	font-size: 1.0em;
+	background-color: chocolate;
+	text-align: center;
+	margin: 5px 2.5px;
+	border: 2px solid #ccc;
+	color: aliceblue;
+	transition: background-color 1s;
 }
 header a:hover {
-    background-color: #c22418;
+	background-color: #c22418;
 }
 header a:active{
-    background-color: black;
+	background-color: black;
 }
 
 .menuicon{
-    box-shadow: 0px 0px 5px rgba(100,0,0,0.8);  
-    margin-top: 3px;
-    margin-right: auto;
+	box-shadow: 0px 0px 5px rgba(100,0,0,0.8);  
+	margin-top: 3px;
+	margin-right: auto;
 }
 .menuicon div{
-    background-color: antiquewhite;
-    width:40px;
-    height:2px;
-    margin:10px;
-    padding:1px;
-    
+	background-color: antiquewhite;
+	width:40px;
+	height:2px;
+	margin:10px;
+	padding:1px;
+	
 }
 
 .hometext {
-    z-index: 10;
-	background-image: url("wood.jpg");
+	z-index: 10;
+	background-image: url("images/wood.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-position: center;
@@ -67,37 +67,37 @@ header a:active{
 	text-align: center;
 	text-shadow: 5px 5px 20px #443300;
 	box-sizing: border-box;
-    perspective: 1px;
-    transform-style: flat;
+	perspective: 1px;
+	transform-style: flat;
 }
 
 .hometext div {
-    z-index: 20;
-    transform: translateY(100px);
+	z-index: 20;
+	transform: translateY(100px);
 }
 
 .hometext div img {
 	width:100%;
-    filter: drop-shadow(5px 5px 5px #222);
+	filter: drop-shadow(5px 5px 5px #222);
 	transform: translateX(-23%);
 }
 
 .about {
 	width: 100%;
-    z-index: 30;
+	z-index: 30;
 	background-color: rgba(100,40,10,0.2);
-    text-align: center;
-    overflow: hidden;
-    padding: 10px;
+	text-align: center;
+	overflow: hidden;
+	padding: 10px;
 }
 .head1 {
-    position: relative;
-    color:aliceblue;
-    font-size: 2em;
-    width: 100%;
-    margin: 10px;
-    height: 50px;
-    background-color: rgba(250,40,50,0.9);
+	position: relative;
+	color:aliceblue;
+	font-size: 2em;
+	width: 100%;
+	margin: 10px;
+	height: 50px;
+	background-color: rgba(250,40,50,0.9);
 }
 
 .description{
@@ -105,15 +105,15 @@ header a:active{
 	top: 10px;
 	width: 100%;
 
-    display: flex;
-    font-family: 'Work Sans', sans-serif;
-    color: black;
-    text-shadow: 0 0 0;
-    font-size: 1em;
-    text-align: right;
-    margin-bottom: 10px;
-    padding-bottom: 10%;
-    padding-right: 5%;
+	display: flex;
+	font-family: 'Work Sans', sans-serif;
+	color: black;
+	text-shadow: 0 0 0;
+	font-size: 1em;
+	text-align: right;
+	margin-bottom: 10px;
+	padding-bottom: 10%;
+	padding-right: 5%;
 }
 
 .img{
@@ -126,22 +126,22 @@ header a:active{
 }
 
 .info{
-    position: relative;
-    top:5%;
+	position: relative;
+	top:5%;
 	left:5%;
 	width: 100vw;
 	margin-bottom: 5%;
 	padding: 2%;
 	font-size: 2vw;
-    background-color: #eeeeee;
-    border-radius: 5%;
+	background-color: #eeeeee;
+	border-radius: 5%;
 }
 
 
 
 .contact{
-    width:100%;
-    margin-bottom: 2%;
+	width:100%;
+	margin-bottom: 2%;
 }
 .contact a img{
 	width:50px;
@@ -161,12 +161,12 @@ header a:active{
 }
 
 .head2{
-    height: 50px;
-    background-color: aquamarine;
-    margin:2.5px;
-    text-align: center;
-    color: #881111;
-    font-size: 2em;
+	height: 50px;
+	background-color: aquamarine;
+	margin:2.5px;
+	text-align: center;
+	color: #881111;
+	font-size: 2em;
 }
 
 footer{
