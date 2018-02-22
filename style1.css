@@ -5,6 +5,7 @@ html, body {
 	text-shadow: 3px 2px 5px #444;
 }
 
+
 header {
 	z-index: 100;
 	width:100%;
@@ -83,7 +84,7 @@ header a:active{
 }
 
 .about {
-	width: 100%;
+	width: 95%;
 	z-index: 30;
 	background-color: rgba(100,40,10,0.2);
 	text-align: center;
